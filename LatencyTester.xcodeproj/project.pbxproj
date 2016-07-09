@@ -33,17 +33,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		63C5986B1D24465900411A6B /* FPSTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FPSTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C5986B1D24465900411A6B /* LatencyTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LatencyTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C5986E1D24465900411A6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		63C5986F1D24465900411A6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		63C598721D24465900411A6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63C598741D24465900411A6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63C598771D24465A00411A6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		63C598791D24465A00411A6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		63C5987E1D24465A00411A6B /* FPSTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FPSTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C5987E1D24465A00411A6B /* LatencyTester.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LatencyTester.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C598821D24465A00411A6B /* FPSTesterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPSTesterTests.m; sourceTree = "<group>"; };
 		63C598841D24465A00411A6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		63C598891D24465A00411A6B /* FPSTesterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FPSTesterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C598891D24465A00411A6B /* LatencyTester.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LatencyTester.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C5988D1D24465A00411A6B /* FPSTesterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPSTesterUITests.m; sourceTree = "<group>"; };
 		63C5988F1D24465A00411A6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,9 +86,9 @@
 		63C5986C1D24465900411A6B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				63C5986B1D24465900411A6B /* FPSTester.app */,
-				63C5987E1D24465A00411A6B /* FPSTesterTests.xctest */,
-				63C598891D24465A00411A6B /* FPSTesterUITests.xctest */,
+				63C5986B1D24465900411A6B /* LatencyTester.app */,
+				63C5987E1D24465A00411A6B /* LatencyTester.xctest */,
+				63C598891D24465A00411A6B /* LatencyTester.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,9 +135,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		63C5986A1D24465900411A6B /* FPSTester */ = {
+		63C5986A1D24465900411A6B /* LatencyTester */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63C598921D24465A00411A6B /* Build configuration list for PBXNativeTarget "FPSTester" */;
+			buildConfigurationList = 63C598921D24465A00411A6B /* Build configuration list for PBXNativeTarget "LatencyTester" */;
 			buildPhases = (
 				63C598671D24465900411A6B /* Sources */,
 				63C598681D24465900411A6B /* Frameworks */,
@@ -147,14 +147,14 @@
 			);
 			dependencies = (
 			);
-			name = FPSTester;
+			name = LatencyTester;
 			productName = FPSTester;
-			productReference = 63C5986B1D24465900411A6B /* FPSTester.app */;
+			productReference = 63C5986B1D24465900411A6B /* LatencyTester.app */;
 			productType = "com.apple.product-type.application";
 		};
-		63C5987D1D24465A00411A6B /* FPSTesterTests */ = {
+		63C5987D1D24465A00411A6B /* LatencyTesterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63C598951D24465A00411A6B /* Build configuration list for PBXNativeTarget "FPSTesterTests" */;
+			buildConfigurationList = 63C598951D24465A00411A6B /* Build configuration list for PBXNativeTarget "LatencyTesterTests" */;
 			buildPhases = (
 				63C5987A1D24465A00411A6B /* Sources */,
 				63C5987B1D24465A00411A6B /* Frameworks */,
@@ -165,14 +165,14 @@
 			dependencies = (
 				63C598801D24465A00411A6B /* PBXTargetDependency */,
 			);
-			name = FPSTesterTests;
+			name = LatencyTesterTests;
 			productName = FPSTesterTests;
-			productReference = 63C5987E1D24465A00411A6B /* FPSTesterTests.xctest */;
+			productReference = 63C5987E1D24465A00411A6B /* LatencyTester.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		63C598881D24465A00411A6B /* FPSTesterUITests */ = {
+		63C598881D24465A00411A6B /* LatencyTesterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63C598981D24465A00411A6B /* Build configuration list for PBXNativeTarget "FPSTesterUITests" */;
+			buildConfigurationList = 63C598981D24465A00411A6B /* Build configuration list for PBXNativeTarget "LatencyTesterUITests" */;
 			buildPhases = (
 				63C598851D24465A00411A6B /* Sources */,
 				63C598861D24465A00411A6B /* Frameworks */,
@@ -183,9 +183,9 @@
 			dependencies = (
 				63C5988B1D24465A00411A6B /* PBXTargetDependency */,
 			);
-			name = FPSTesterUITests;
+			name = LatencyTesterUITests;
 			productName = FPSTesterUITests;
-			productReference = 63C598891D24465A00411A6B /* FPSTesterUITests.xctest */;
+			productReference = 63C598891D24465A00411A6B /* LatencyTester.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 63C598661D24465900411A6B /* Build configuration list for PBXProject "FPSTester" */;
+			buildConfigurationList = 63C598661D24465900411A6B /* Build configuration list for PBXProject "LatencyTester" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				63C5986A1D24465900411A6B /* FPSTester */,
-				63C5987D1D24465A00411A6B /* FPSTesterTests */,
-				63C598881D24465A00411A6B /* FPSTesterUITests */,
+				63C5986A1D24465900411A6B /* LatencyTester */,
+				63C5987D1D24465A00411A6B /* LatencyTesterTests */,
+				63C598881D24465A00411A6B /* LatencyTesterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -287,12 +287,12 @@
 /* Begin PBXTargetDependency section */
 		63C598801D24465A00411A6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 63C5986A1D24465900411A6B /* FPSTester */;
+			target = 63C5986A1D24465900411A6B /* LatencyTester */;
 			targetProxy = 63C5987F1D24465A00411A6B /* PBXContainerItemProxy */;
 		};
 		63C5988B1D24465A00411A6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 63C5986A1D24465900411A6B /* FPSTester */;
+			target = 63C5986A1D24465900411A6B /* LatencyTester */;
 			targetProxy = 63C5988A1D24465A00411A6B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -398,7 +398,7 @@
 				INFOPLIST_FILE = FPSTester/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.davidhodge.FPSTester;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LatencyTester;
 			};
 			name = Debug;
 		};
@@ -410,7 +410,7 @@
 				INFOPLIST_FILE = FPSTester/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.davidhodge.FPSTester;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LatencyTester;
 			};
 			name = Release;
 		};
@@ -422,8 +422,8 @@
 				INFOPLIST_FILE = FPSTesterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.davidhodge.FPSTesterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FPSTester.app/Contents/MacOS/FPSTester";
+				PRODUCT_NAME = LatencyTester;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LatencyTester.app/Contents/MacOS/LatencyTester";
 			};
 			name = Debug;
 		};
@@ -435,8 +435,8 @@
 				INFOPLIST_FILE = FPSTesterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.davidhodge.FPSTesterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FPSTester.app/Contents/MacOS/FPSTester";
+				PRODUCT_NAME = LatencyTester;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LatencyTester.app/Contents/MacOS/LatencyTester";
 			};
 			name = Release;
 		};
@@ -447,7 +447,7 @@
 				INFOPLIST_FILE = FPSTesterUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.davidhodge.FPSTesterUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LatencyTester;
 				TEST_TARGET_NAME = FPSTester;
 			};
 			name = Debug;
@@ -459,7 +459,7 @@
 				INFOPLIST_FILE = FPSTesterUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.davidhodge.FPSTesterUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LatencyTester;
 				TEST_TARGET_NAME = FPSTester;
 			};
 			name = Release;
@@ -467,7 +467,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		63C598661D24465900411A6B /* Build configuration list for PBXProject "FPSTester" */ = {
+		63C598661D24465900411A6B /* Build configuration list for PBXProject "LatencyTester" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				63C598901D24465A00411A6B /* Debug */,
@@ -476,7 +476,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63C598921D24465A00411A6B /* Build configuration list for PBXNativeTarget "FPSTester" */ = {
+		63C598921D24465A00411A6B /* Build configuration list for PBXNativeTarget "LatencyTester" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				63C598931D24465A00411A6B /* Debug */,
@@ -484,7 +484,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		63C598951D24465A00411A6B /* Build configuration list for PBXNativeTarget "FPSTesterTests" */ = {
+		63C598951D24465A00411A6B /* Build configuration list for PBXNativeTarget "LatencyTesterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				63C598961D24465A00411A6B /* Debug */,
@@ -492,7 +492,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		63C598981D24465A00411A6B /* Build configuration list for PBXNativeTarget "FPSTesterUITests" */ = {
+		63C598981D24465A00411A6B /* Build configuration list for PBXNativeTarget "LatencyTesterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				63C598991D24465A00411A6B /* Debug */,

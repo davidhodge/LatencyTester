@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "63C5986A1D24465900411A6B"
-               BuildableName = "FPSTester.app"
-               BlueprintName = "FPSTester"
-               ReferencedContainer = "container:FPSTester.xcodeproj">
+               BuildableName = "LatencyTester.app"
+               BlueprintName = "LatencyTester"
+               ReferencedContainer = "container:LatencyTester.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "63C5987D1D24465A00411A6B"
-               BuildableName = "FPSTesterTests.xctest"
-               BlueprintName = "FPSTesterTests"
-               ReferencedContainer = "container:FPSTester.xcodeproj">
+               BuildableName = "LatencyTester.xctest"
+               BlueprintName = "LatencyTesterTests"
+               ReferencedContainer = "container:LatencyTester.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "63C598881D24465A00411A6B"
-               BuildableName = "FPSTesterUITests.xctest"
-               BlueprintName = "FPSTesterUITests"
-               ReferencedContainer = "container:FPSTester.xcodeproj">
+               BuildableName = "LatencyTester.xctest"
+               BlueprintName = "LatencyTesterUITests"
+               ReferencedContainer = "container:LatencyTester.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "63C5986A1D24465900411A6B"
-            BuildableName = "FPSTester.app"
-            BlueprintName = "FPSTester"
-            ReferencedContainer = "container:FPSTester.xcodeproj">
+            BuildableName = "LatencyTester.app"
+            BlueprintName = "LatencyTester"
+            ReferencedContainer = "container:LatencyTester.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "63C5986A1D24465900411A6B"
-            BuildableName = "FPSTester.app"
-            BlueprintName = "FPSTester"
-            ReferencedContainer = "container:FPSTester.xcodeproj">
+            BuildableName = "LatencyTester.app"
+            BlueprintName = "LatencyTester"
+            ReferencedContainer = "container:LatencyTester.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "63C5986A1D24465900411A6B"
-            BuildableName = "FPSTester.app"
-            BlueprintName = "FPSTester"
-            ReferencedContainer = "container:FPSTester.xcodeproj">
+            BuildableName = "LatencyTester.app"
+            BlueprintName = "LatencyTester"
+            ReferencedContainer = "container:LatencyTester.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

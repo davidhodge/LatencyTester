@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:FPSTester.xcodeproj">
+      location = "self:/Users/david/Dropbox/FPSTester/LatencyTester.xcodeproj">
    </FileRef>
 </Workspace>
