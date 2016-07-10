@@ -8,15 +8,14 @@
 
 #import "AppDelegate.h"
 
-//#define TIMER_INTERVAL 0.005
+//Screen won't actually update more than 60 FPS, so that tends to be a good number
 #define TIMER_INTERVAL 1.0/60.0
 
-
-//need to figure out how to plug into a dynamic format string. Had some toruble on first attempt
-//#define DECIMAL_PLACES 3
-//log stats every this number of updates
+//log stats every LOG_STATS number of updates
 #define LOG_STATS 1000
 
+//This is a janky tool and it is likely to see some delays some of the time. It was easyt o build though
+//We get decent ROI if we work most of the time and log when a slowdown occurs. If we get unlucky timing-wise, just try again.
 #define LOG_DELAYS_GREATER_THAN 0.025
 
 @interface AppDelegate ()
@@ -33,7 +32,7 @@
 @property (nonatomic, assign) int lastValue;
 @property (nonatomic, assign) NSTimeInterval longestDelay;
 
-//For profiling
+//For profiling. Will come in handy when we resume attempt to exceed 60FPS. Mostly stuck on OS constraints at this point.
 @property (nonatomic, assign) int use;
 @property (nonatomic, assign) int skip;
 
@@ -59,7 +58,8 @@
     double theTimeInterval = [theDate timeIntervalSinceDate:_startDate];
     int nextValue = theTimeInterval*1000;
 
-    //If it's been long enough that there would be a visble change.
+    //If it's been long enough that there would be a visble change, lets do something.
+    //We don't really need this when capped to 60FPS, but we have ambitions of doing that at some point.
     if (nextValue != _lastValue) {
         
         NSString * presentTimeString = [NSString stringWithFormat:@"%.3lf",theTimeInterval];
